@@ -19,64 +19,84 @@
       style="font-family: Inter, 'Noto Sans', sans-serif"
     >
       <div class="layout-container flex h-full grow flex-col">
+        <!-- Navbar -->
         <header
-          class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#eaedf1] px-10 py-3"
+          class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#eaf1ec] px-10 py-3"
         >
-          <div class="flex items-center gap-4 text-[#111418]">
+          <div class="flex items-center gap-4 text-[#111814]">
             <div class="size-4">
               <svg
                 viewBox="0 0 48 48"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <g clip-path="url(#clip0_6_319)">
+                <g clip-path="url(#clip0_6_330)">
                   <path
-                    d="M8.57829 8.57829C5.52816 11.6284 3.451 15.5145 2.60947 19.7452C1.76794 23.9758 2.19984 28.361 3.85056 32.3462C5.50128 36.3314 8.29667 39.7376 11.8832 42.134C15.4698 44.5305 19.6865 45.8096 24 45.8096C28.3135 45.8096 32.5302 44.5305 36.1168 42.134C39.7033 39.7375 42.4987 36.3314 44.1494 32.3462C45.8002 28.361 46.2321 23.9758 45.3905 19.7452C44.549 15.5145 42.4718 11.6284 39.4217 8.57829L24 24L8.57829 8.57829Z"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M24 0.757355L47.2426 24L24 47.2426L0.757355 24L24 0.757355ZM21 35.7574V12.2426L9.24264 24L21 35.7574Z"
                     fill="currentColor"
                   ></path>
                 </g>
                 <defs>
-                  <clipPath id="clip0_6_319">
+                  <clipPath id="clip0_6_330">
                     <rect width="48" height="48" fill="white"></rect>
                   </clipPath>
                 </defs>
               </svg>
             </div>
             <h2
-              class="text-[#111418] text-lg font-bold leading-tight tracking-[-0.015em]"
+              class="text-[#111814] text-lg font-bold tracking-[-0.015em] lin"
             >
-              Portfolio
+              <a href="homepage.html" class="hover:text-[#5d896e] transition"
+                >Rajan's Portfolio</a
+              >
             </h2>
           </div>
           <div class="flex flex-1 justify-end gap-8">
-            <div class="flex items-center gap-9">
+            <nav class="flex items-center gap-8">
               <a
-                class="text-[#111418] text-sm font-medium leading-normal"
-                href="#"
+                class="text-[#111814] text-sm font-medium hover:text-[#5d896e] transition"
+                href="aboutme.html"
                 >About</a
               >
               <a
-                class="text-[#111418] text-sm font-medium leading-normal"
-                href="#"
-                >Resume</a
-              >
-              <a
-                class="text-[#111418] text-sm font-medium leading-normal"
-                href="#"
+                class="text-[#111814] text-sm font-medium hover:text-[#5d896e] transition"
+                href="projects.html"
                 >Projects</a
               >
               <a
-                class="text-[#111418] text-sm font-medium leading-normal"
-                href="#"
+                class="text-[#111814] text-sm font-medium hover:text-[#5d896e] transition"
+                href="skills.html"
+                >Skills</a
+              >
+              <a
+                class="text-[#111814] text-sm font-medium hover:text-[#5d896e] transition"
+                href="experience.html"
+                >Experience</a
+              >
+              <a
+                class="text-[#111814] text-sm font-medium hover:text-[#5d896e] transition"
+                href="contact-us.html"
                 >Contact</a
               >
-            </div>
+              <a
+                class="flex items-center rounded-full h-10 px-4 bg-[#b3e4c7] text-[#111814] text-sm font-bold hover:bg-[#5d896e] hover:text-white transition"
+                href="resume.html"
+                >Resume</a
+              >
+            </nav>
             <div class="flex gap-2">
-              <button
-                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 bg-[#eaedf1] text-[#111418] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              <!-- <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 bg-[#eaf1ec] text-[#111814] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              > -->
+              <a
+                href="https://github.com/rajan235"
+                target="_blank"
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 bg-[#eaf1ec] text-[#111814] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
               >
                 <div
-                  class="text-[#111418]"
+                  class="text-[#111814]"
                   data-icon="GithubLogo"
                   data-size="20px"
                   data-weight="regular"
@@ -93,12 +113,18 @@
                     ></path>
                   </svg>
                 </div>
-              </button>
-              <button
-                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 bg-[#eaedf1] text-[#111418] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              </a>
+              <!-- </button> -->
+              <!-- <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 bg-[#eaf1ec] text-[#111814] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              > -->
+              <a
+                href="https://linkedin.com/in/rajan-bansal-235"
+                target="_blank"
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 bg-[#eaf1ec] text-[#111814] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
               >
                 <div
-                  class="text-[#111418]"
+                  class="text-[#111814]"
                   data-icon="LinkedinLogo"
                   data-size="20px"
                   data-weight="regular"
@@ -115,11 +141,35 @@
                     ></path>
                   </svg>
                 </div>
-              </button>
+              </a>
+              <!-- </button> -->
             </div>
           </div>
         </header>
-        <div class="px-40 flex flex-1 justify-center py-5">
+        <div
+          class="px-4 md:px-40 flex flex-1 flex-col items-center justify-center py-10"
+        >
+          <h2 class="text-[#111418] text-3xl font-bold mb-6">Resume</h2>
+          <iframe
+            src="resume.pdf"
+            width="100%"
+            height="900px"
+            class="border rounded-lg shadow"
+            style="max-width: 900px; min-height: 600px"
+          >
+            This browser does not support PDFs. Please download the PDF to view
+            it:
+            <a href="resume.pdf">Download PDF</a>
+          </iframe>
+          <a
+            href="resume.pdf"
+            download
+            class="mt-6 inline-block px-6 py-3 bg-[#b3e4c7] text-[#111814] font-bold rounded-full shadow hover:bg-[#5d896e] hover:text-white transition"
+          >
+            Download Resume (PDF)
+          </a>
+        </div>
+        <!-- <div class="px-40 flex flex-1 justify-center py-5">
           <div
             class="layout-content-container flex flex-col max-w-[960px] flex-1"
           >
@@ -218,33 +268,8 @@
             >
               Tools: Git, Docker, AWS, Jira
             </p>
-            <h3
-              class="text-[#111418] text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4"
-            >
-              Contact Information
-            </h3>
-            <p
-              class="text-[#111418] text-base font-normal leading-normal pb-3 pt-1 px-4"
-            >
-              Email: alex.smith@example.com
-            </p>
-            <p
-              class="text-[#111418] text-base font-normal leading-normal pb-3 pt-1 px-4"
-            >
-              Phone: (555) 123-4567
-            </p>
-            <p
-              class="text-[#111418] text-base font-normal leading-normal pb-3 pt-1 px-4"
-            >
-              LinkedIn: linkedin.com/in/alex-smith
-            </p>
-            <p
-              class="text-[#111418] text-base font-normal leading-normal pb-3 pt-1 px-4"
-            >
-              GitHub: github.com/alex-smith
-            </p>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </body>
