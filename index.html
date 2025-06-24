@@ -1,5 +1,19 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Rajan Bansal | Computer Science Graduate & Aspiring Software Developer Portfolio"
+    />
+    <meta property="og:title" content="Rajan Bansal | Portfolio" />
+    <meta
+      property="og:description"
+      content="Portfolio of Rajan Bansal, Computer Science Graduate and Software Developer."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://your-image-url.jpg" />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
     <link
       rel="stylesheet"
@@ -17,9 +31,8 @@
       style="font-family: Inter, 'Noto Sans', sans-serif"
     >
       <!-- Navbar -->
-
       <header
-        class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#eaf1ec] px-10 py-3"
+        class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#eaf1ec] px-10 py-3 bg-white/80 backdrop-blur sticky top-0 z-10"
       >
         <div class="flex items-center gap-4 text-[#111814]">
           <div class="size-6">
@@ -27,6 +40,7 @@
               viewBox="0 0 48 48"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              aria-label="Logo"
             >
               <g clip-path="url(#clip0_6_319)">
                 <path
@@ -42,7 +56,7 @@
             </svg>
           </div>
           <h2 class="text-[#111814] text-lg font-bold tracking-[-0.015em] lin">
-            <a href="index.html" class="hover:text-[#5d896e] transition"
+            <a href="index.html" class="hover:text-[#256d4f] transition"
               >Rajan Bansal</a
             >
           </h2>
@@ -50,93 +64,75 @@
         <div class="flex flex-1 justify-end gap-8">
           <nav class="flex items-center gap-8">
             <a
-              class="text-[#111814] text-sm font-medium hover:text-[#5d896e] transition"
+              class="text-[#111814] text-sm font-medium hover:text-[#256d4f] transition"
               href="aboutme.html"
               >About</a
             >
             <a
-              class="text-[#111814] text-sm font-medium hover:text-[#5d896e] transition"
+              class="text-[#111814] text-sm font-medium hover:text-[#256d4f] transition"
               href="projects.html"
               >Projects</a
             >
             <a
-              class="text-[#111814] text-sm font-medium hover:text-[#5d896e] transition"
+              class="text-[#111814] text-sm font-medium hover:text-[#256d4f] transition"
               href="skills.html"
               >Skills</a
             >
             <a
-              class="text-[#111814] text-sm font-medium hover:text-[#5d896e] transition"
+              class="text-[#111814] text-sm font-medium hover:text-[#256d4f] transition"
               href="experience.html"
               >Experience</a
             >
             <a
-              class="text-[#111814] text-sm font-medium hover:text-[#5d896e] transition"
+              class="text-[#111814] text-sm font-medium hover:text-[#256d4f] transition"
               href="contact-us.html"
               >Contact</a
             >
             <a
-              class="flex items-center rounded-full h-10 px-4 bg-[#b3e4c7] text-[#111814] text-sm font-bold hover:bg-[#5d896e] hover:text-white transition"
+              class="flex items-center rounded-full h-10 px-4 bg-[#256d4f] text-white text-sm font-bold hover:bg-[#1e5740] hover:text-white transition"
               href="resume.html"
               >Resume</a
             >
           </nav>
           <div class="flex gap-2">
-            <!-- <button
-                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 bg-[#eaf1ec] text-[#111814] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
-              > -->
             <a
               href="https://github.com/rajan235"
               target="_blank"
-              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 bg-[#eaf1ec] text-[#111814] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              aria-label="GitHub"
+              class="flex items-center justify-center rounded-full h-10 w-10 bg-[#eaf1ec] text-[#256d4f] hover:bg-[#256d4f] hover:text-white transition"
             >
-              <div
-                class="text-[#111814]"
-                data-icon="GithubLogo"
-                data-size="20px"
-                data-weight="regular"
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20px"
+                height="20px"
+                fill="currentColor"
+                viewBox="0 0 256 256"
+                aria-hidden="true"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20px"
-                  height="20px"
-                  fill="currentColor"
-                  viewBox="0 0 256 256"
-                >
-                  <path
-                    d="M208.31,75.68A59.78,59.78,0,0,0,202.93,28,8,8,0,0,0,196,24a59.75,59.75,0,0,0-48,24H124A59.75,59.75,0,0,0,76,24a8,8,0,0,0-6.93,4,59.78,59.78,0,0,0-5.38,47.68A58.14,58.14,0,0,0,56,104v8a56.06,56.06,0,0,0,48.44,55.47A39.8,39.8,0,0,0,96,192v8H72a24,24,0,0,1-24-24A40,40,0,0,0,8,136a8,8,0,0,0,0,16,24,24,0,0,1,24,24,40,40,0,0,0,40,40H96v16a8,8,0,0,0,16,0V192a24,24,0,0,1,48,0v40a8,8,0,0,0,16,0V192a39.8,39.8,0,0,0-8.44-24.53A56.06,56.06,0,0,0,216,112v-8A58.14,58.14,0,0,0,208.31,75.68ZM200,112a40,40,0,0,1-40,40H112a40,40,0,0,1-40-40v-8a41.74,41.74,0,0,1,6.9-22.48A8,8,0,0,0,80,73.83a43.81,43.81,0,0,1,.79-33.58,43.88,43.88,0,0,1,32.32,20.06A8,8,0,0,0,119.82,64h32.35a8,8,0,0,0,6.74-3.69,43.87,43.87,0,0,1,32.32-20.06A43.81,43.81,0,0,1,192,73.83a8.09,8.09,0,0,0,1,7.65A41.72,41.72,0,0,1,200,104Z"
-                  ></path>
-                </svg>
-              </div>
+                <path
+                  d="M208.31,75.68A59.78,59.78,0,0,0,202.93,28,8,8,0,0,0,196,24a59.75,59.75,0,0,0-48,24H124A59.75,59.75,0,0,0,76,24a8,8,0,0,0-6.93,4,59.78,59.78,0,0,0-5.38,47.68A58.14,58.14,0,0,0,56,104v8a56.06,56.06,0,0,0,48.44,55.47A39.8,39.8,0,0,0,96,192v8H72a24,24,0,0,1-24-24A40,40,0,0,0,8,136a8,8,0,0,0,0,16,24,24,0,0,1,24,24,40,40,0,0,0,40,40H96v16a8,8,0,0,0,16,0V192a24,24,0,0,1,48,0v40a8,8,0,0,0,16,0V192a39.8,39.8,0,0,0-8.44-24.53A56.06,56.06,0,0,0,216,112v-8A58.14,58.14,0,0,0,208.31,75.68ZM200,112a40,40,0,0,1-40,40H112a40,40,0,0,1-40-40v-8a41.74,41.74,0,0,1,6.9-22.48A8,8,0,0,0,80,73.83a43.81,43.81,0,0,1,.79-33.58,43.88,43.88,0,0,1,32.32,20.06A8,8,0,0,0,119.82,64h32.35a8,8,0,0,0,6.74-3.69,43.87,43.87,0,0,1,32.32-20.06A43.81,43.81,0,0,1,192,73.83a8.09,8.09,0,0,0,1,7.65A41.72,41.72,0,0,1,200,104Z"
+                ></path>
+              </svg>
             </a>
-            <!-- </button> -->
-            <!-- <button
-                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 bg-[#eaf1ec] text-[#111814] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
-              > -->
             <a
               href="https://www.linkedin.com/in/rajanbansal553/"
               target="_blank"
-              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 bg-[#eaf1ec] text-[#111814] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              aria-label="LinkedIn"
+              class="flex items-center justify-center rounded-full h-10 w-10 bg-[#eaf1ec] text-[#256d4f] hover:bg-[#256d4f] hover:text-white transition"
             >
-              <div
-                class="text-[#111814]"
-                data-icon="LinkedinLogo"
-                data-size="20px"
-                data-weight="regular"
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20px"
+                height="20px"
+                fill="currentColor"
+                viewBox="0 0 256 256"
+                aria-hidden="true"
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20px"
-                  height="20px"
-                  fill="currentColor"
-                  viewBox="0 0 256 256"
-                >
-                  <path
-                    d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z"
-                  ></path>
-                </svg>
-              </div>
+                <path
+                  d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z"
+                ></path>
+              </svg>
             </a>
-            <!-- </button> -->
           </div>
         </div>
       </header>
@@ -145,16 +141,25 @@
         class="flex flex-1 flex-col items-center justify-start px-4 pt-20 pb-16"
       >
         <div
-          class="flex min-h-[520px] flex-col md:flex-row items-end justify-start w-full max-w-5xl bg-cover bg-center bg-no-repeat rounded-2xl shadow-2xl p-12 gap-10 -mt-8"
+          class="flex min-h-[520px] flex-col md:flex-row items-end justify-start w-full max-w-5xl bg-cover bg-center bg-no-repeat rounded-2xl shadow-2xl p-12 gap-10 -mt-8 relative overflow-hidden"
           style="
             background-image: linear-gradient(
                 rgba(0, 0, 0, 0.08) 0%,
-                rgba(0, 0, 0, 0.18) 100%
+                rgba(0, 0, 0, 0.12) 100%
               ),
-              url('https://lh3.googleusercontent.com/aida-public/AB6AXuCgmqU-18IEqd6S0piQKpQhjCvZimszkBasEBM3Q922KWhgyp-deM8VfNYkbGJsW8NABpTPhsizM7tG0nTs4_VnvLt4vPSNBsh0NF1LjwNBOAlBr_2Pp5IfIsCfwRu4D0TFn6kxD1L_5FeHhUC_6FPR4mdsQhZYgcVDFiaMLzFu0wAtAenYTFg3nZpenLK-NbrNlS0goA7jdiOPCarn25Or69C5yvtNip50O-aNwSrHviaAN9fhPbh5RisjJsvCTxmP2Si1mLt96I53');
+              url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=900&q=80');
           "
         >
-          <div class="flex flex-col gap-6 text-left pb-4 md:pb-0">
+          <!-- <div
+    class="flex min-h-[520px] flex-col md:flex-row items-end justify-start w-full max-w-5xl rounded-2xl shadow-2xl p-12 gap-10 -mt-8 relative overflow-hidden"
+    style="
+      background: linear-gradient(135deg, #f9fbfa 60%, #eaf1ec 100%);
+    "
+  > -->
+          <div
+            class="absolute inset-0 bg-gradient-to-br from-[#111814]/60 to-[#256d4f]/30 pointer-events-none rounded-2xl"
+          ></div>
+          <div class="flex flex-col gap-6 text-left pb-4 md:pb-0 relative z-10">
             <h1
               class="text-white text-4xl md:text-6xl font-black leading-tight tracking-[-0.04em]"
             >
@@ -171,23 +176,83 @@
             <div class="flex gap-6 mt-4">
               <a
                 href="resume.html"
-                class="rounded-full bg-[#b3e4c7] text-[#111814] font-bold px-8 py-3 text-lg hover:bg-[#5d896e] hover:text-white transition"
+                class="rounded-full bg-[#256d4f] text-white font-bold px-8 py-3 text-lg shadow-md hover:bg-[#1e5740] transition-colors duration-200"
                 >View Resume</a
               >
               <a
                 href="contact-us.html"
-                class="rounded-full border-2 border-[#b3e4c7] text-[#b3e4c7] bg-white font-bold px-8 py-3 text-lg hover:bg-[#b3e4c7] hover:text-white transition"
+                class="rounded-full border-2 border-[#256d4f] text-[#256d4f] bg-white font-bold px-8 py-3 text-lg hover:bg-[#256d4f] hover:text-white hover:shadow-md transition-colors duration-200"
                 >Contact Me</a
               >
             </div>
+            <div class="flex gap-4 mt-6">
+              <a
+                href="https://github.com/rajan235"
+                target="_blank"
+                aria-label="GitHub"
+                class="text-white hover:text-[#256d4f] transition-colors duration-200"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28"
+                  height="28"
+                  fill="currentColor"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M208.31,75.68A59.78,59.78,0,0,0,202.93,28,8,8,0,0,0,196,24a59.75,59.75,0,0,0-48,24H124A59.75,59.75,0,0,0,76,24a8,8,0,0,0-6.93,4,59.78,59.78,0,0,0-5.38,47.68A58.14,58.14,0,0,0,56,104v8a56.06,56.06,0,0,0,48.44,55.47A39.8,39.8,0,0,0,96,192v8H72a24,24,0,0,1-24-24A40,40,0,0,0,8,136a8,8,0,0,0,0,16,24,24,0,0,1,24,24,40,40,0,0,0,40,40H96v16a8,8,0,0,0,16,0V192a24,24,0,0,1,48,0v40a8,8,0,0,0,16,0V192a39.8,39.8,0,0,0-8.44-24.53A56.06,56.06,0,0,0,216,112v-8A58.14,58.14,0,0,0,208.31,75.68ZM200,112a40,40,0,0,1-40,40H112a40,40,0,0,1-40-40v-8a41.74,41.74,0,0,1,6.9-22.48A8,8,0,0,0,80,73.83a43.81,43.81,0,0,1,.79-33.58,43.88,43.88,0,0,1,32.32,20.06A8,8,0,0,0,119.82,64h32.35a8,8,0,0,0,6.74-3.69,43.87,43.87,0,0,1,32.32-20.06A43.81,43.81,0,0,1,192,73.83a8.09,8.09,0,0,0,1,7.65A41.72,41.72,0,0,1,200,104Z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/rajanbansal553/"
+                target="_blank"
+                aria-label="LinkedIn"
+                class="text-white hover:text-[#256d4f] transition-colors duration-200"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="28"
+                  height="28"
+                  fill="currentColor"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
           </div>
+          <!-- Animated scroll indicator -->
+          <!-- <div class="absolute bottom-4 left-1/2 -translate-x-1/2 z-20">
+            <span class="animate-bounce text-white/80 text-2xl">&#8595;</span>
+          </div> -->
         </div>
+        <!-- About Me / Summary Section -->
+        <section class="w-full max-w-4xl mx-auto mt-12 px-4">
+          <div class="bg-white/80 rounded-xl shadow p-8">
+            <h3 class="text-[#111814] text-2xl font-bold mb-2">About Me</h3>
+            <p class="text-[#111814] text-base leading-relaxed">
+              I'm a passionate Computer Science graduate with hands-on
+              experience in full-stack development, cloud, and DevOps. I enjoy
+              solving real-world problems with code and collaborating in diverse
+              teams. My goal is to build impactful products and continuously
+              grow as a developer.
+            </p>
+          </div>
+        </section>
       </main>
       <!-- Footer -->
       <footer
-        class="text-center text-[#5d896e] text-sm py-6 border-t border-[#eaf1ec] bg-white/80"
+        class="text-center text-[#256d4f] text-sm py-6 border-t border-[#eaf1ec] bg-white/80"
       >
-        &copy; 2025 Rajan Bansal | bansalrajan553@gmail.com
+        &copy; 2025 Rajan Bansal |
+        <a
+          href="mailto:bansalrajan553@gmail.com"
+          class="underline hover:text-[#111814]"
+          >bansalrajan553@gmail.com</a
+        >
       </footer>
     </div>
   </body>
